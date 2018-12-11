@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"log"
-	"goSmartSC/wandappETH"
+	"goSmartSC/demoERC20Token"
 	"crypto/ecdsa"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"context"
@@ -86,12 +86,6 @@ func dealWithEvents(client *ethclient.Client, chl chan(types.Log))  {
 }
 
 func main() {
-	/*
-	//获得系统环境变量。
-	gopath := os.Getenv("GOPATH")
-	fmt.Println("GOPATH is: " + gopath)
-	*/
-
 	//连接ethereum节点。
 	client,err := ethclient.Dial("ws://127.0.0.1:50001")	//不能用http协议，因为http协议是短连接，无法从node返回消息。
 	if err != nil {
@@ -99,7 +93,7 @@ func main() {
 	}
 
 	//创建erc20合约实例。
-	erc20Inst,err := wandappETH.NewDemoERC20(erc20Addr(ERC2O_CONTRACT_ADDRESS), client)
+	erc20Inst,err := demoERC20Token.NewDemoERC20(erc20Addr(ERC2O_CONTRACT_ADDRESS), client)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -121,14 +115,6 @@ func main() {
 
 	//用户授权wandappETH.sol合约转账额度。
 	erc20Inst.Approve(signer, common.HexToAddress(WANDAPP_ETH_CONTRACT_ADDRESS),big.NewInt(10000));
-
-	/*
-	_, err := KeystoreLoad("UTC--2018-07-30T01-39-03.462860004Z--b4173fddaa6e5a3b496460ba440cff0f984b98b8", "123456")
-	if err != nil {
-		fmt.Println("Priv error:", err)
-		return
-	}
-	*/
 
 	//捕获信号，程序退出。
 	c := make(chan os.Signal, 1)

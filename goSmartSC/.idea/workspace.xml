@@ -11,14 +11,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wandappETH.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wandappETH.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wandappETH/wandappETH.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="28248">
+              <caret line="1270" selection-start-line="1270" selection-end-line="1270" />
               <folding>
                 <element signature="e#127#435#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demoERC20Token.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoERC20Token/demoERC20Token.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="432" column="16" lean-forward="true" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="16" />
+              <folding>
+                <element signature="e#131#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/accounts/abi/bind/base.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/core/types/transaction.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -35,8 +65,8 @@
       <file leaf-file-name="config.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="352">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#14#161#0" expanded="true" />
               </folding>
@@ -47,8 +77,11 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+            <state relative-caret-position="129">
+              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#383#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +89,8 @@
       <file leaf-file-name="ethclient.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/ethclient/ethclient.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8008">
-              <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+            <state relative-caret-position="475">
+              <caret line="376" column="18" selection-start-line="376" selection-start-column="18" selection-end-line="376" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -74,35 +107,8 @@
       <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7458">
+            <state relative-caret-position="365">
               <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/http.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
-              <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/net/http/client.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subscription.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/subscription.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -137,6 +143,7 @@
         <option value="$PROJECT_DIR$/config.go" />
         <option value="$PROJECT_DIR$/demo.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/demoERC20Token/demoERC20Token.go" />
       </list>
     </option>
   </component>
@@ -150,10 +157,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="671" />
-    <option name="y" value="24" />
-    <option name="width" value="1787" />
-    <option name="height" value="1162" />
+    <option name="x" value="299" />
+    <option name="y" value="31" />
+    <option name="width" value="1785" />
+    <option name="height" value="1154" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -167,6 +174,11 @@
             <path>
               <item name="goSmartSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="goSmartSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goSmartSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goSmartSC" type="462c0819:PsiDirectoryNode" />
+              <item name="demoERC20Token" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goSmartSC" type="b2602c69:ProjectViewProjectNode" />
@@ -242,17 +254,17 @@
     <frame x="0" y="-4" width="2556" height="1190" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13419405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.106807515" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002798" side_tool="true" weight="0.3280363" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972022" weight="0.22823985" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972022" weight="0.27683616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31528047" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36072144" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -270,10 +282,79 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/core/types/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/ethclient/ethclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8294">
+          <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/common/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7458">
+          <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/http.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/subscription.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wandappETH/wandappETH.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
@@ -492,20 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7458">
-          <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/ethclient/ethclient.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8008">
-          <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/common/types.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1298">
@@ -520,29 +587,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wandappETH/wandappETH.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28248">
+          <caret line="1270" selection-start-line="1270" selection-end-line="1270" />
+          <folding>
+            <element signature="e#127#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#14#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/rpc/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        <state relative-caret-position="365">
+          <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wandappETH/wandappETH.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/ethclient/ethclient.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        <state relative-caret-position="475">
+          <caret line="376" column="18" selection-start-line="376" selection-start-column="18" selection-end-line="376" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/core/types/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
-            <element signature="e#127#435#0" expanded="true" />
+            <element signature="e#14#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/accounts/abi/bind/base.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoERC20Token/demoERC20Token.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="432" column="16" lean-forward="true" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="16" />
+          <folding>
+            <element signature="e#131#439#0" expanded="true" />
           </folding>
         </state>
       </provider>
